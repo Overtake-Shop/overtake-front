@@ -1,0 +1,10 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    input {
+        border: 1px solid grey;
+        height: 35px;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+}

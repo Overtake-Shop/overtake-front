@@ -1,0 +1,31 @@
+.container {
+    width: 90%;
+    min-height: 100%;
+    
+    .title {
+        font-size: var(--font-size-l);
+    }
+
+    .productsgrid {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+        gap: 30px;
+
+        .product {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+            .productimage {
+                width: 100%;
+                aspect-ratio: 1/1;
+                background-color: white;
+                border-radius: 15px;
+            }
+            
+        }
+    }
+}
